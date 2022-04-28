@@ -52,20 +52,20 @@ let greeting = () => {
 	if (hour >= 6 && hour < 12) {
 		greetingText.innerHTML = "Good Morning";
 		moonSun.src = "/images/icon-sun.svg";
-        document.body.style.backgroundImage = 'url(/images/mobile-day-backgound.png)'
+        document.body.style.backgroundImage = 'url(./images/mobile-day-backgound.png)'
 	} else if (hour >= 12 && hour < 18) {
 		greetingText.innerHTML = "Good Afternoon";
 		moonSun.src = "/images/icon-sun.svg";
-        document.body.style.backgroundImage = 'url(/images/mobile-day-backgound.png)'
+        document.body.style.backgroundImage = 'url(./images/mobile-day-backgound.png)'
 	} else if (hour >= 18 && hour < 21) {
 		greetingText.innerHTML = "Good Evening";
 		moonSun.src = "/images/icon-moon.svg";
-        document.body.style.backgroundImage = 'url(/images/mobile-night-backgound.png)'
+        document.body.style.backgroundImage = 'url(./images/mobile-night-backgound.png)'
         document.body.style.color = "#fff"
 	} else {
 		greetingText.innerHTML = "Good Night";
 		moonSun.src = "/images/icon-moon.svg";
-        document.body.style.backgroundImage = 'url(/images/mobile-night-backgound.png)'
+        document.body.style.backgroundImage = 'url(./images/mobile-night-backgound.png)'
         document.body.style.color = "#fff"
 
 	}

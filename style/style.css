@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Calistoga&display=swap");
+* {
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+:root {
+  font-size: 10px;
+}
+
+body {
+  background-image: url(/images/mobile-day-backgound.png);
+  overflow: hidden;
+}
+
+body #root {
+  margin: 3rem 3rem;
+}
+
+body #root #quote {
+  width: 75vw;
+  font-size: 2rem;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 25rem;
+}
+
+body #root #quote .quoteSign {
+  font-family: 'Calistoga', cursive;
+  font-size: 2rem;
+}
+
+body #root #greeting span {
+  font-size: 2.5rem;
+  margin-left: 1rem;
+  font-weight: 700;
+  text-shadow: 0.7rem 0.5rem 2rem #020101d8;
+  color: #fff;
+}
+
+body #root #clock {
+  font-size: 10rem;
+  font-weight: 900;
+  -webkit-transition: opacity 1s ease;
+  transition: opacity 1s ease;
+  opacity: 0;
+  text-shadow: 0.7rem 0.5rem 2rem #343030d8;
+  color: #fff;
+}
+
+body #root #location {
+  font-size: 2rem;
+  text-shadow: 0.1rem 0.1rem 0.5rem #000000;
+  color: #fff;
+}
+
+body #root #moonsun {
+  width: 10rem;
+}
+
+body #root #moreLessContainer {
+  width: 8rem;
+  height: 3rem;
+  background-color: white;
+  border-radius: 999px;
+  position: relative;
+  left: 0;
+  margin-top: 6rem;
+  margin-bottom: 2rem;
+  color: black;
+  -webkit-box-shadow: 0.7rem 0.5rem 2rem #0000005b;
+          box-shadow: 0.7rem 0.5rem 2rem #0000005b;
+}
+
+body #root #moreLessContainer img {
+  width: 2rem;
+  position: absolute;
+  left: 65%;
+  top: 18%;
+}
+
+body #root #moreLessContainer p {
+  position: absolute;
+  top: 22%;
+  left: 15%;
+  font-size: 1.3rem;
+}
+
+body #root .middleContainer {
+  position: relative;
+}
+
+body #root .moreDetailes {
+  display: none;
+  width: 85vw;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  border-radius: 10px;
+  padding: 1.5rem 1.5rem;
+  gap: 3rem;
+  font-weight: 700;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+  background-color: rgba(51, 54, 59, 0.678);
+  position: relative;
+  color: #fff;
+  top: 10rem;
+}
+
+body #root .moreDetailes .leftTable > p {
+  margin-bottom: 2.5rem;
+  font-size: 1.3rem;
+  opacity: 80%;
+}
+
+body #root .moreDetailes .rightTable > p {
+  margin-bottom: 2.5rem;
+  font-size: 1.8rem;
+}
+/*# sourceMappingURL=style.css.map */
